@@ -1,0 +1,21 @@
+@import '../../style/sass/variables';
+@import '../../style/sass/mixins';
+
+.list-container {
+  color: white;
+  height: 1.8em;
+  font-size: 0.9em;
+  font-weight: 700;
+  cursor: 'pointer';
+  color: 'white';
+}
+
+.ddBox {
+  border: '1px solid black';
+  position: 'absolute';
+  background-color: 'white';
+  color: 'black';
+  box-shadow: '0 2px 5px rgba(0, 0, 0, 0.1)';
+  margin-top: '0px';
+  z-index: 1;
+}

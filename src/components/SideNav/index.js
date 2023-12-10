@@ -12,8 +12,8 @@ const SideNav = () => {
     const accordionData = useSelector(state => state.categoryReducer.categories);
 
     const [products, setProducts] = useState();
-    const [minPriceLimit, setMinPriceLimit] = useState(10);
-    const [maxPriceLimit, setMaxPriceLimit] = useState(130);
+    const [minPriceLimit, setMinPriceLimit] = useState(100);
+    const [maxPriceLimit, setMaxPriceLimit] = useState(3000);
 
     const dispatch = useDispatch();
 
@@ -101,9 +101,9 @@ const SideNav = () => {
                     <input
                         className='form-range'
                         type="range"
-                        min={10}
-                        max={130}
-                        step={10}
+                        min={100}
+                        max={3000}
+                        step={100}
                         onChange={(e) => {setPriceLimit(e,"min")}}
                     />
                 </div>
@@ -112,9 +112,9 @@ const SideNav = () => {
                     <input
                         className='form-range'
                         type="range"
-                        min={10}
-                        max={130}
-                        step={10}
+                        min={100}
+                        max={3000}
+                        step={100}
                         onChange={(e) => {setPriceLimit(e,"max")}}
 
                     />

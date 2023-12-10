@@ -40,7 +40,7 @@ const FilledCart = () => {
                                             <div className="p-3 cart-item-details">
                                                 <span className="cart-item-name"> {item.productname} </span>
                                                 <div className="cart-item-price">
-                                                    <span> ${item.price} </span>
+                                                    <span> Rs.{item.price} </span>
                                                 </div>
                                                 <div>
                                                     <i className="fa fa-star text-warning" />
@@ -79,10 +79,10 @@ const FilledCart = () => {
                 <div className="col-4 px-4 py-3 my-4 cart-summary">
                     <h2 className="mb-5 mt-3"> Summary </h2>
                     <div>
-                        <span> Cart Total : ${cart.totalItemsPrice} </span>
+                        <span> Cart Total : Rs.{cart.totalItemsPrice} </span>
                         <span> Shipping Charges : Free </span>
                         <hr />
-                        <span className="summary-total"> Total : ${cart.totalItemsPrice} </span>
+                        <span className="summary-total"> Total : Rs.{cart.totalItemsPrice} </span>
                         <hr />
                     </div>
                     <div className="btn btn-outline-dark w-100 mb-4 mt-1 ">

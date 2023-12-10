@@ -1,0 +1,79 @@
+.fc-main-div {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+
+  .cart-item-card {
+    img {
+      height: 13em;
+      border-radius: 0.5em;
+      border: 1px solid black;
+    }
+    .cart-item-details {
+      text-align: left;
+
+      .cart-item-name {
+        font-size: 1.4em;
+      }
+
+      .cart-item-price {
+        float: right;
+        span {
+          font-size: 1.5em;
+        }
+      }
+      span {
+        font-weight: 600;
+        font-size: large;
+      }
+    }
+  }
+
+  /* Add the following styles to your SCSS file */
+
+  .cart-edit-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-group {
+    display: flex;
+  }
+
+  .cart-button {
+    background-color: #ffc107;
+    color: #212529;
+    border: 1px solid #ffc107;
+    height: auto;
+    width: 150px;
+
+    &:hover {
+      background-color: #ffca2b;
+      border-color: #ffca2b;
+    }
+
+    .cart-icon-container {
+      margin-right: 8px;
+    }
+
+    .cart-text-container {
+      font-size: 14px;
+    }
+  }
+
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    height: auto;
+
+    &:hover {
+      background-color: #f8d7da;
+      color: #dc3545;
+      border-color: #dc3545;
+    }
+
+    i {
+      margin-right: 8px;
+    }
+  }
+}
