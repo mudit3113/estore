@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, This is an e-commerce app for cricket enthusiasts</h1>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/muditnsit" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="muditgarg" height="30" width="40" /></a>
-
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left">Frontend: ReactJs, Redux, TailwindCSS</p>
-<p align="left"> Backend: NodeJS, ExpressJs, MySQL</p>
+<h5>Frontend:</h5>
+<p align="left"> ReactJs, Redux, TailwindCSS</p>
+<h5>Backend:</h5>
+<p align="left"> NodeJS, ExpressJs</p>
+<h5>Infrastructure:</h5>
+<p align="left> MySql</p>
 
 <img src="https://github.com/mudit3113/estore/assets/116980345/b6883fb1-fb0c-42d3-8f7a-8149878eed51"></img>
 <img src="https://github.com/mudit3113/estore/assets/116980345/57002121-c7cb-43ed-9cda-c2d1ccf009bf"></img>
