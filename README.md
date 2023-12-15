@@ -8,7 +8,8 @@
 <h5>Backend:</h5>
 <p align="left"> NodeJS, ExpressJs</p>
 <h5>Infrastructure:</h5>
-<p align="left> MySql</p>
+<p align="left"> MySQL</p>
+
 <br/>
 <br/>
 
