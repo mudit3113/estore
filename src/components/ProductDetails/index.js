@@ -31,7 +31,7 @@ const ProductDetails = () => {
             <div style={{ fontSize: '0.8em' }}> Inclusive of all taxes.</div>
           </div>
           <div className="my-3 product-description">
-            <span> Some Product Description here ....</span>
+            <span> {location.state.description}</span>
           </div>
           <div className="my-5 flex-container">
             <div

@@ -37,6 +37,7 @@ const Products = () => {
     <div className="products-container">
       {productData.map((product, key) => {
         const isFavorite = favouriteItems.some((item) => item.id === product.id)
+        console.log('isFav', isFavorite)
 
         return (
           <div className="mx-5 p-3 product-card">
@@ -62,7 +63,7 @@ const Products = () => {
             </div>
             <div className="my-3">
               <div
-                className="item-button"
+                className="item-button green-background"
                 onClick={() => {
                   addToCart(product)
                 }}
@@ -75,7 +76,9 @@ const Products = () => {
                 </div>
               </div>
               <div
-                className="item-button"
+                className={`item-button ${
+                  isFavorite ? 'orange-background' : 'green-background'
+                }`}
                 onClick={() => {
                   toggleFavorite(product)
                 }}
@@ -84,7 +87,7 @@ const Products = () => {
                   <i className="fa fa-heart" />
                 </div>
                 <div className="item-text-container">
-                  <p>
+                  <p style={{ color: isFavorite ? 'black' : 'white' }}>
                     {isFavorite ? 'Remove from Wishlist' : 'Add to Wishlist'}
                   </p>
                 </div>

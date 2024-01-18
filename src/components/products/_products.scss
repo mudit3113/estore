@@ -54,19 +54,38 @@
       border: 1px solid black;
       border-radius: 1em;
 
+      &.orange-background {
+        background-color: orange;
+
+        &:hover {
+          background-color: darkorange;
+        }
+      }
+
+      &.green-background {
+        background-color: green;
+
+        &:hover {
+          background-color: darkgreen;
+        }
+      }
+
       .item-icon-container {
         padding: 0.3em;
         width: 2em;
         i {
           font-size: 1.2em;
+          color: white;
         }
       }
 
       .item-text-container {
         padding: 0.1em;
+        margin-right: 10px;
         p {
           font-weight: 600;
           font-size: 1.2em;
+          color: white;
         }
       }
 
